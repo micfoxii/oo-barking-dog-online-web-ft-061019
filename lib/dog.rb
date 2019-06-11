@@ -1,5 +1,5 @@
 class Dog 
- def self.name=(dog_name)
+ def name=(dog_name)
    @name = dog_name
  end
  
@@ -7,7 +7,7 @@ class Dog
    @name
  end
 
-def self.bark
+def bark
   puts "woof!"
 end
 end
